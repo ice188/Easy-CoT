@@ -3,7 +3,7 @@
 ## Directories
 
 ### easy_cot/
-Contains our main dataset. Each subdirectory of easy_cot has a name corresponding to the base dataset that it was generated from, and contain two files: data.json (containing output of fine-tune-cot applied on base dataset) and demos.json (containing output of auto-cot applied on data.json).
+Contains our main dataset. Each subdirectory of easy_cot has a name corresponding to the base dataset that it was generated from, and contains two files: data.json (containing output of fine-tune-cot applied on base dataset) and demos.json (containing output of auto-cot applied on data.json).
 
 ### datasets/
 Contains the six base datasets used to generate our easy_cot dataset.
