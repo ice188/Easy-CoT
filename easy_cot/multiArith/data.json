@@ -1,10 +1,5 @@
 [
     {
-        "prompt": "At the arcade Edward won 9 tickets. If he spent 4 tickets on a beanie and later won 4 more tickets, how many would he have###",
-        "answer": "Edward won 9 tickets. He spent 4 tickets on a beanie. That means he has 9-4=5 tickets left. He won 4 more tickets. That means he has 5+4=9 tickets.-->9<|endoftext|>",
-        "cluster": 1
-    },
-    {
         "prompt": "At the arcade Jerry won 4 tickets. If he spent 2 tickets on a beanie and later won 47 more tickets, how many would he have###",
         "answer": "Jerry won 4 tickets. So he has 4 tickets. He spends 2 tickets on a beanie. So he has 2 tickets. He wins 47 more tickets. So he has 49 tickets.-->49<|endoftext|>",
         "cluster": 1
@@ -98,11 +93,6 @@
         "prompt": "At the fair Adam bought 10 tickets. After riding the ferris wheel he had 3 tickets left. If each ticket cost 9 dollars, how much money did Adam spend riding the ferris wheel###",
         "answer": "Adam bought 10 tickets. After riding the ferris wheel, he had 3 tickets left. This means that he used 7 tickets to ride the ferris wheel. Each ticket cost 9 dollars. This means that he spent 63 dollars riding the ferris wheel.-->63<|endoftext|>",
         "cluster": 1
-    },
-    {
-        "prompt": "April's discount flowers was having a sale where each flower was 6 dollars. If Maria bought 7 roses and 3 daisies, how much did she spend###",
-        "answer": "We know that each flower is $6. We know that Maria bought 7 roses and 3 daisies. That means that she spent $6 x 7 = $42 on roses, and $6 x 3 = $18 on daisies. To find the total amount she spent, we just need to add those two numbers together: $42 + $18 = $60.-->60<|endoftext|>",
-        "cluster": 2
     },
     {
         "prompt": "April's discount flowers was having a sale where each flower was 6 dollars. If Katie bought 5 roses and 5 daisies, how much did she spend###",
@@ -392,11 +382,6 @@
     {
         "prompt": "Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 8 trays at a time. If he had to pick up 9 trays from one table and 7 trays from another, how many trips will he make###",
         "answer": "Jerry can carry 8 trays at a time. There are 9 trays on the first table. That means Jerry will need to make 2 trips to the first table. There are 7 trays on the second table. That means Jerry will need to make 1 trip to the second table. In total, Jerry will make 3 trips.-->2<|endoftext|>",
-        "cluster": 3
-    },
-    {
-        "prompt": "Victor was helping the cafeteria workers pick up lunch trays, but he could only carry 7 trays at a time. If he had to pick up 23 trays from one table and 5 trays from another, how many trips will he make###",
-        "answer": "Victor can carry 7 trays at a time. If he has to pick up 23 trays from one table, he will have to make 3 trips. If he has to pick up 5 trays from another table, he will have to make 1 trip. Therefore, he will make 4 trips in total.-->4<|endoftext|>",
         "cluster": 3
     },
     {
@@ -1165,11 +1150,6 @@
         "cluster": 4
     },
     {
-        "prompt": "Gwen had 18 math problems and 11 science problems for homework. If she finished 24 of the problems at school, how many problems did she have to do for homework###",
-        "answer": "Gwen had 18 math problems and 11 science problems for homework. That means she had a total of 29 problems for homework. If she finished 24 of the problems at school, that means she had 5 problems left to do for homework.-->5<|endoftext|>",
-        "cluster": 4
-    },
-    {
         "prompt": "Sarah had 4 pages of math homework and 6 pages of reading homework. If each page had 4 problems on it, how many problems did she have to complete total###",
         "answer": "Sarah had 4 pages of math homework. That means she had 16 math problems. Sarah had 6 pages of reading homework. That means she had 24 reading problems. Sarah had a total of 40 problems.-->40<|endoftext|>",
         "cluster": 4
@@ -1563,11 +1543,6 @@
         "prompt": "There were 9 girls and 14 boys trying out for the schools basketball team. If only 2 of them got called back, how many students didn't make the cut###",
         "answer": "There were 9 girls and 14 boys trying out for the schools basketball team. 9 + 14 = 23 23 students were trying out for the schools basketball team. 2 of them got called back. 23 - 2 = 21 21 students didn't make the cut.-->21<|endoftext|>",
         "cluster": 4
-    },
-    {
-        "prompt": "Mike made 69 dollars mowing lawns over the summer. If he spent 24 dollars buying new mower blades, how many 5 dollar games could he buy with the money he had left###",
-        "answer": "Mike made $69 from mowing lawns. He spent $24 on new mower blades. That means he has $45 left. Each game costs $5, so he could buy 9 games.-->9<|endoftext|>",
-        "cluster": 5
     },
     {
         "prompt": "Oliver made 35 dollars mowing lawns over the summer. If he spent 7 dollars buying new mower blades, how many 4 dollar games could he buy with the money he had left###",
@@ -1970,11 +1945,6 @@
         "cluster": 6
     },
     {
-        "prompt": "Wendy uploaded 45 pictures to Facebook. She put 27 pics into one album and put the rest into 9 different albums. How many pictures were in each album###",
-        "answer": "First, we know that Wendy uploaded 45 pictures in total. Second, we know that Wendy put 27 pictures into one album. That means that Wendy put the remaining 18 pictures into 9 different albums. That means that each album would have 2 pictures.-->2<|endoftext|>",
-        "cluster": 6
-    },
-    {
         "prompt": "Katie uploaded 30 pictures from her phone and 51 from her camera to facebook. If she sorted the pics into 9 different albums with the same amount of pics in each album, how many pictures were in each of the albums###",
         "answer": "First, we need to add 30 and 51 to get the total number of pictures, which is 81. Then, we need to divide 81 by 9 to see how many pictures are in each album. 81 divided by 9 is 9 with a remainder of 0. This means that each album has 9 pictures in it.-->9<|endoftext|>",
         "cluster": 6
@@ -2193,11 +2163,6 @@
         "prompt": "Megan had 93 files on her computer. She deleted 21 of them and put the rest into folders with 8 files in each one. How many folders did Megan end up with###",
         "answer": "Megan had 93 files. She deleted 21 of them. That means she has 72 files left. She put 8 files in each folder. That means she has 9 folders.-->9<|endoftext|>",
         "cluster": 6
-    },
-    {
-        "prompt": "There were 5 friends playing a video game online when 2 more players joined the game. If each player had 8 lives, how many lives did they have total###",
-        "answer": "There are 5 friends playing a video game online. Each player has 8 lives. That means that the 5 friends have a total of 40 lives. When 2 more players join the game, the total number of lives becomes 48.-->56<|endoftext|>",
-        "cluster": 7
     },
     {
         "prompt": "There were 10 friends playing a video game online when 7 players quit. If each player left had 8 lives, how many lives did they have total###",
@@ -2503,11 +2468,6 @@
         "prompt": "While playing a trivia game, Frank answered 3 questions correct in the first half and 2 questions correct in the second half. If each question was worth 3 points, what was his final score###",
         "answer": "In the first half, Frank answered 3 questions correctly. This means he earned 9 points (3 points per question). In the second half, Frank answered 2 questions correctly. This means he earned 6 points (3 points per question). To find his final score, we need to add 9 points and 6 points together. This gives us a final score of 15 points.-->15<|endoftext|>",
         "cluster": 7
-    },
-    {
-        "prompt": "Sarah baked 38 cupcakes for her school's bake sale. If her brother, Todd, ate 14 of them how many packages could she make if she put 8 cupcake in each package###",
-        "answer": "Sarah baked 38 cupcakes. Todd ate 14 of them. That means that Sarah is left with 24 cupcakes. Sarah can make 3 packages of 8 cupcakes each.-->3<|endoftext|>",
-        "cluster": 8
     },
     {
         "prompt": "For Halloween Katie and her sister combined the candy they received. Katie had 8 pieces of candy while her sister had 23. If they ate 8 pieces the first night, how many pieces do they have left###",
