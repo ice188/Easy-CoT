@@ -1,10 +1,5 @@
 [
     {
-        "prompt": "Take the last letters of each words in \"Noelia Cassidy Ashok Francisco\" and concatenate them###",
-        "answer": "The last letter of \"Noelia\" is \"a\". The last letter of \"Cassidy\" is \"y\". The last letter of \"Ashok\" is \"k\". The last letter of \"Francisco\" is \"o\". So the final answer would be \"ayko\".-->ayko<|endoftext|>",
-        "cluster": 1
-    },
-    {
         "prompt": "Take the last letters of each words in \"Wilma Margie Amber Sergio\" and concatenate them###",
         "answer": "The last letter of \"Wilma\" is \"a\". The last letter of \"Margie\" is \"e\". The last letter of \"Amber\" is \"r\". The last letter of \"Sergio\" is \"o\". So, the final answer is \"aero\".-->aero<|endoftext|>",
         "cluster": 1
@@ -518,11 +513,6 @@
         "prompt": "Take the last letters of each words in \"Ever Gio Elia Ramesh\" and concatenate them###",
         "answer": "The last letter of \"Ever\" is \"r\". The last letter of \"Gio\" is \"o\". The last letter of \"Elia\" is \"a\". The last letter of \"Ramesh\" is \"h\". So, the final answer is \"roah\".-->roah<|endoftext|>",
         "cluster": 1
-    },
-    {
-        "prompt": "Take the last letters of each words in \"Idalia Arnoldo Marla Duane\" and concatenate them###",
-        "answer": "The last letter of \"Idalia\" is \"a\". The last letter of \"Arnoldo\" is \"o\". The last letter of \"Marla\" is \"a\". The last letter of \"Duane\" is \"e\". So the final answer would be \"aoae\".-->aoae<|endoftext|>",
-        "cluster": 2
     },
     {
         "prompt": "Take the last letters of each words in \"Len Marquis Kylie Sandra\" and concatenate them###",
@@ -1410,11 +1400,6 @@
         "cluster": 2
     },
     {
-        "prompt": "Take the last letters of each words in \"Tim Candace Cecil Misael\" and concatenate them###",
-        "answer": "The last letter of \"Tim\" is \"m\". The last letter of \"Candace\" is \"e\". The last letter of \"Cecil\" is \"l\". The last letter of \"Misael\" is \"l\". So the final answer would be \"mel\".-->mell<|endoftext|>",
-        "cluster": 3
-    },
-    {
         "prompt": "Take the last letters of each words in \"Celso Tracy Winston Anton\" and concatenate them###",
         "answer": "The last letter of \"Celso\" is \"o\". The last letter of \"Tracy\" is \"y\". The last letter of \"Winston\" is \"n\". The last letter of \"Anton\" is \"n\". So the final answer would be \"onynn\".-->oynn<|endoftext|>",
         "cluster": 3
@@ -2093,11 +2078,6 @@
         "prompt": "Take the last letters of each words in \"Darwin Colin Cj Abhishek\" and concatenate them###",
         "answer": "The last letter of \"Darwin\" is \"n\". The last letter of \"Colin\" is \"n\". The last letter of \"Cj\" is \"j\". The last letter of \"Abhishek\" is \"k\". So the final answer is \"n n j k\".-->nnjk<|endoftext|>",
         "cluster": 3
-    },
-    {
-        "prompt": "Take the last letters of each words in \"Felipe Heidi Nino Bradley\" and concatenate them###",
-        "answer": "The last letter of \"Felipe\" is \"e\". The last letter of \"Heidi\" is \"i\". The last letter of \"Nino\" is \"o\". The last letter of \"Bradley\" is \"y\". So, the final answer would be \"eiofy\".-->eioy<|endoftext|>",
-        "cluster": 4
     },
     {
         "prompt": "Take the last letters of each words in \"Héctor Daniela Rossy Jose Manuel\" and concatenate them###",
