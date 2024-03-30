@@ -1,10 +1,5 @@
 [
     {
-        "prompt": "A coin is heads up. Isaac does not flip the coin. Reyes does not flip the coin. Carly flips the coin. Tania flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
-        "answer": "Isaac does not flip the coin, so the coin remains heads up. Reyes does not flip the coin, so the coin remains heads up. Carly flips the coin, so the coin is now tails up. Tania flips the coin, so the coin is now heads up again.-->yes<|endoftext|>",
-        "cluster": 1
-    },
-    {
         "prompt": "A coin is heads up. Salma does not flip the coin. Pj flips the coin. Gladis flips the coin. Monica flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
         "answer": "Salma does not flip the coin, so the coin remains heads up. Pj flips the coin, so the coin is now tails up. Gladis flips the coin, so the coin is now heads up again. Monica flips the coin, so the coin is now tails up. So, the final answer is that the coin is tails up.-->no<|endoftext|>",
         "cluster": 1
@@ -53,11 +48,6 @@
         "prompt": "A coin is heads up. Yajaira flips the coin. Terrell flips the coin. Adam flips the coin. Lexie flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
         "answer": "Yajaira flips the coin. The coin is now tails up. Terrell flips the coin. The coin is now heads up. Adam flips the coin. The coin is now tails up. Lexie flips the coin. The coin is now heads up. So, the answer is yes, the coin is still heads up.-->yes<|endoftext|>",
         "cluster": 1
-    },
-    {
-        "prompt": "A coin is heads up. Paula does not flip the coin. Irina flips the coin. Laurel does not flip the coin. Maribel flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
-        "answer": "Paula does not flip the coin, so the coin remains heads up. Irina flips the coin, so the coin is now tails up. Laurel does not flip the coin, so the coin remains tails up. Maribel flips the coin, so the coin is now heads up again.-->yes<|endoftext|>",
-        "cluster": 2
     },
     {
         "prompt": "A coin is heads up. Stella does not flip the coin. Janis flips the coin. Darren flips the coin. Lena does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
@@ -580,11 +570,6 @@
         "cluster": 2
     },
     {
-        "prompt": "A coin is heads up. Claudia flips the coin. Cole does not flip the coin. Matthew does not flip the coin. Juan Pablo does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
-        "answer": "Claudia flips the coin, so it is now tails up. Cole does not flip the coin, so it remains tails up. Matthew does not flip the coin, so it remains tails up. Juan Pablo does not flip the coin, so it remains tails up. So the answer is no, the coin is not heads up.-->no<|endoftext|>",
-        "cluster": 3
-    },
-    {
         "prompt": "A coin is heads up. Louise flips the coin. Mariano does not flip the coin. Laura does not flip the coin. Gerardo flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
         "answer": "The coin is heads up. Louise flips the coin. That means the coin is now tails up. Mariano does not flip the coin. That means the coin is still tails up. Laura does not flip the coin. That means the coin is still tails up. Gerardo flips the coin. That means the coin is now heads up again.-->yes<|endoftext|>",
         "cluster": 3
@@ -1005,11 +990,6 @@
         "cluster": 4
     },
     {
-        "prompt": "A coin is heads up. Deandre does not flip the coin. Moe does not flip the coin. Jack does not flip the coin. Vanessa does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
-        "answer": "If Deandre does not flip the coin, then the coin is still heads up. If Moe does not flip the coin, then the coin is still heads up. If Jack does not flip the coin, then the coin is still heads up. If Vanessa does not flip the coin, then the coin is still heads up. So, the answer is yes, the coin is still heads up.-->yes<|endoftext|>",
-        "cluster": 4
-    },
-    {
         "prompt": "A coin is heads up. Janette does not flip the coin. Stacey flips the coin. Ronny flips the coin. Kim does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
         "answer": "Janette does not flip the coin, so the coin remains heads up. Stacey flips the coin, so the coin is now tails up. Ronny flips the coin, so the coin is now heads up again. Kim does not flip the coin, so the coin remains heads up. Therefore, the answer is yes, the coin is still heads up.-->yes<|endoftext|>",
         "cluster": 4
@@ -1310,11 +1290,6 @@
         "cluster": 4
     },
     {
-        "prompt": "A coin is heads up. Aj does not flip the coin. Jd flips the coin. Maddie does not flip the coin. Francisca does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
-        "answer": "Aj does not flip the coin, so the coin remains heads up. Jd flips the coin, so the coin is now tails up. Maddie does not flip the coin, so the coin remains tails up. Francisca does not flip the coin, so the coin remains tails up. So, the final answer is that the coin is tails up.-->no<|endoftext|>",
-        "cluster": 5
-    },
-    {
         "prompt": "A coin is heads up. Jazmine does not flip the coin. Carmen flips the coin. Kitty does not flip the coin. Nina does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
         "answer": "Jazmine does not flip the coin, so the coin remains heads up. Carmen flips the coin, so the coin is now tails up. Kitty does not flip the coin, so the coin remains tails up. Nina does not flip the coin, so the coin remains tails up. Therefore, the answer is yes, the coin is still tails up.-->no<|endoftext|>",
         "cluster": 5
@@ -1568,11 +1543,6 @@
         "prompt": "A coin is heads up. Brooklyn flips the coin. Dawn does not flip the coin. Tay flips the coin. Gene flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
         "answer": "The coin is heads up. Brooklyn flips the coin. The coin is now tails up. Dawn does not flip the coin. The coin is still tails up. Tay flips the coin. The coin is now heads up. Gene flips the coin. The coin is now tails up.-->no<|endoftext|>",
         "cluster": 5
-    },
-    {
-        "prompt": "A coin is heads up. Clarissa does not flip the coin. Shauna does not flip the coin. Alexis does not flip the coin. Branden flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
-        "answer": "The coin is heads up. Clarissa does not flip the coin. The coin is still heads up. Shauna does not flip the coin. The coin is still heads up. Alexis does not flip the coin. The coin is still heads up. Branden flips the coin. The coin is now tails up.-->no<|endoftext|>",
-        "cluster": 6
     },
     {
         "prompt": "A coin is heads up. Camilo flips the coin. Becky does not flip the coin. Eliza does not flip the coin. Rebecca does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
@@ -2000,11 +1970,6 @@
         "cluster": 6
     },
     {
-        "prompt": "A coin is heads up. Brandon does not flip the coin. Ivonne does not flip the coin. Jefferson flips the coin. Isabella does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
-        "answer": "Brandon does not flip the coin, so the coin remains heads up. Ivonne does not flip the coin, so the coin remains heads up. Jefferson flips the coin, so the coin is now tails up. Isabella does not flip the coin, so the coin remains tails up.-->no<|endoftext|>",
-        "cluster": 7
-    },
-    {
         "prompt": "A coin is heads up. Frank flips the coin. Trevor does not flip the coin. Al does not flip the coin. Gabriella flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
         "answer": "The coin is heads up. Frank flips the coin. The coin is now tails up. Trevor does not flip the coin. The coin is still tails up. Al does not flip the coin. The coin is still tails up. Gabriella flips the coin. The coin is now heads up.-->yes<|endoftext|>",
         "cluster": 7
@@ -2338,11 +2303,6 @@
         "prompt": "A coin is heads up. Itzel flips the coin. Anderson does not flip the coin. Kenia does not flip the coin. Edy flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
         "answer": "Itzel flips the coin. This means that the coin is now tails up. Anderson does not flip the coin. This means that the coin remains tails up. Kenia does not flip the coin. This means that the coin remains tails up. Edy flips the coin. This means that the coin is now heads up again. So, to answer the question, yes, the coin is still heads up.-->yes<|endoftext|>",
         "cluster": 7
-    },
-    {
-        "prompt": "A coin is heads up. Albert does not flip the coin. Felicia does not flip the coin. Margo flips the coin. Patty does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
-        "answer": "Albert does not flip the coin, so the coin remains heads up. Felicia does not flip the coin, so the coin remains heads up. Margo flips the coin, so the coin is now tails up. Patty does not flip the coin, so the coin remains tails up.-->no<|endoftext|>",
-        "cluster": 8
     },
     {
         "prompt": "A coin is heads up. Stevie does not flip the coin. Julie flips the coin. Leonard does not flip the coin. Karina flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\"###",
