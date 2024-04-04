@@ -1,4 +1,4 @@
-# Easy-CoT: Extensible Dataset for Diverse CoT Reasoning On Small Datasets
+# Easy-CoT: Extensible Dataset for Diverse CoT Reasoning On Small Language Models
 
 ## Grading
 See paper result in the last output cells of result.ipynb (I ran out of compute on colab and had to switch to kaggle to run these).
