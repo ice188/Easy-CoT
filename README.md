@@ -16,7 +16,7 @@ The easy_cot.ipynb notebook has the following APIs are avaliable for use:
 Contains our main Easy-CoT dataset. See generation process in paper. Each subdirectory of easy_cot has a name corresponding to the base dataset that it was generated from, and contains two files: data.json (containing output of fine-tune-cot applied on base dataset) and demos.json (containing output of auto-cot applied on data.json).
 
 ### finetuned_model/
-Contains the link to all fine-tuned models from our experiment. There are six models in total, one for each base dataset.
+All fine-tuned models from our experiment can be downloaded [here](https://drive.google.com/drive/folders/1FnIW-2SayX6KT6YGN6IL_8gQyiLiFY23?usp=drive_link). There are six models in total, one for each base dataset.
 
 ### datasets/
 Contains the six base datasets on complex reasoning tasks used to generate our easy_cot dataset.
