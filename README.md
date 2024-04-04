@@ -8,7 +8,7 @@ See paper result in the last output cells of result.ipynb.
 The easy_cot.ipynb notebook has the following APIs are avaliable for use: 
 - run_auto_cot(dataset, task, save_dir, *hyperparams): apply auto-cot on base dataset to generate easy_cot dataset corresponding to the task and dump in save_dir. Note that since the base dataset is the output of davinci-003 teacher model from Fine-tune-CoT.
 
-- finetune_model(task, model_dir): fine-tune gpt2-small on Easy-CoT data (example question-rationale-answer triples in the format Q###R-->A) of provided task, save the fine-tuned model in model_dir.
+- finetune_model(task, model_dir): fine-tune gpt2-small on Easy-CoT data of provided task, save the fine-tuned model in model_dir.
   
 - test_all(task, model_dir): run two baselines (auto-cot and fine-tune-cot) and easy-cot experiment on the same test set, output average accuracy over three runs for each. The fine-tuned-model should be in model_dir.
 
