@@ -1,13 +1,16 @@
 # Easy-CoT: Extensible Dataset for Diverse CoT Reasoning On Small Datasets
 
-
-
+## Grading
+See paper result in the last output cells of result.ipynb.
 
 ## Directories
 ### code/
-The easy_cot.ipynb notebook has the following methods avaliable for use: 
-- run_auto_cot(dataset, task, save_dir, *hyperparams): apply auto-cot on base dataset to generate json file of demonstrations and dump in save_dir.
-- finetune_model(
+The easy_cot.ipynb notebook has the following APIs are avaliable for use: 
+- run_auto_cot(dataset, task, save_dir, *hyperparams): apply auto-cot on base dataset to generate easy_cot dataset corresponding to the task and dump in save_dir. Note that since the base dataset is the output of davinci-003 teacher model from Fine-tune-CoT.
+
+- finetune_model(task, model_dir): fine-tune gpt2-small on Easy-CoT data (example question-rationale-answer triples in the format Q###R-->A) of provided task, save the fine-tuned model in model_dir.
+  
+- test_all(task, model_dir): run two baselines (auto-cot and fine-tune-cot) and easy-cot experiment on the provided task, output average accuracy over three runs for each. Fine-tuned-model should be in model_dir.
 
 ### easy_cot/
 Contains our main Easy-CoT dataset. See generation process in paper. Each subdirectory of easy_cot has a name corresponding to the base dataset that it was generated from, and contains two files: data.json (containing output of fine-tune-cot applied on base dataset) and demos.json (containing output of auto-cot applied on data.json).
