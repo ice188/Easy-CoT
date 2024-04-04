@@ -10,7 +10,7 @@ The easy_cot.ipynb notebook has the following APIs are avaliable for use:
 
 - finetune_model(task, model_dir): fine-tune gpt2-small on Easy-CoT data (example question-rationale-answer triples in the format Q###R-->A) of provided task, save the fine-tuned model in model_dir.
   
-- test_all(task, model_dir): run two baselines (auto-cot and fine-tune-cot) and easy-cot experiment on the provided task, output average accuracy over three runs for each. Fine-tuned-model should be in model_dir.
+- test_all(task, model_dir): run two baselines (auto-cot and fine-tune-cot) and easy-cot experiment on the same test set, output average accuracy over three runs for each. The fine-tuned-model should be in model_dir.
 
 ### easy_cot/
 Contains our main Easy-CoT dataset. See generation process in paper. Each subdirectory of easy_cot has a name corresponding to the base dataset that it was generated from, and contains two files: data.json (containing output of fine-tune-cot applied on base dataset) and demos.json (containing output of auto-cot applied on data.json).
