@@ -1,1 +1,2 @@
-The fine-tuned models are too large to be uploaded to github. They can be found here: https://www.kaggle.com/work/models
+The fine-tuned models from the experiments can be found here: https://drive.google.com/drive/folders/1FnIW-2SayX6KT6YGN6IL_8gQyiLiFY23?usp=drive_link
+
