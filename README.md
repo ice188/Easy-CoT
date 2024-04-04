@@ -4,7 +4,12 @@
 See paper result in the last output cells of code/result.ipynb (I ran out of compute on colab and had to switch to kaggle to run these).
 
 ## Instruction
-To run experiment on an unseen complex reasoning dataset (one that has question-answer data), first produce base dataset using [Fine-tune-CoT](https://github.com/itsnamgyu/reasoning-teacher), then run our method run_auto_cot() to produce the Easy-CoT dataset, then run finetune_model() to tune gpt2-small on this generated dataset, and finally use test_all() to evaluate.
+To run experiment on an unseen complex reasoning dataset (one that has question-answer data), follow these steps:
+
+1. Produce base dataset using [Fine-tune-CoT](https://github.com/itsnamgyu/reasoning-teacher).
+2. Run run_auto_cot() to produce the Easy-CoT dataset.
+3. Run finetune_model() to tune gpt2-small on this generated dataset.
+4. Use test_all() to evaluate the two baselines + Easy-CoT.
 
 ## Directories
 ### code/
