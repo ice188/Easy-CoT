@@ -1,7 +1,7 @@
-# Easy-CoT: Extensible Dataset for Diverse CoT Reasoning On Small Language Models
+# Easy-CoT: Diverse Chain-Of-Thought Reasoning On Small Language Models
 
 ## Grading
-See paper result in the last output cells of code/result.ipynb (I ran out of compute on colab and had to switch to kaggle to run these).
+See paper result for max_token_limit=50 in the last cells of code/50.ipynb, and result for max_token_limit=100 in code/100.ipynb. 
 
 ## Instruction
 To run experiment on an unseen complex reasoning dataset (one that has question-answer data), follow these steps:
@@ -21,7 +21,7 @@ The easy_cot.ipynb notebook has the following APIs are avaliable for use:
 - test_all(task, model_dir): run two baselines (auto-cot and fine-tune-cot) and easy-cot experiment on the test set for task, output average accuracy over three runs for each. The fine-tuned-model should be in model_dir.
 
 ### easy_cot/
-Contains our main Easy-CoT dataset. See generation process in paper. Each subdirectory of easy_cot has a name corresponding to the base dataset that it was generated from, and contains two files: data.json (containing output of fine-tune-cot applied on base dataset) and demos.json (containing output of auto-cot applied on data.json).
+Contains our Easy-CoT dataset for six tasks. See details in paper. Each subdirectory of easy_cot has a name corresponding to the base dataset that it was generated from, and contains two files: data.json (containing output of fine-tune-cot applied on base dataset) and demos.json (containing output of auto-cot applied on data.json).
 
 ### finetuned_model/
 All fine-tuned models from our experiment can be downloaded [here](https://drive.google.com/drive/folders/1FnIW-2SayX6KT6YGN6IL_8gQyiLiFY23?usp=drive_link). There are six models in total, one for each base dataset.
