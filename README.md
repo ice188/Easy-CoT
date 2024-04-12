@@ -1,4 +1,4 @@
-# Easy-CoT: Diverse Chain-Of-Thought Reasoning On Small Language Models
+# Easy-CoT: Automated and Diverse Chain-of-Thought Reasoning on Small Language Models
 
 ## Grading
 See paper result for max_token_limit=50 in the last cells of code/50.ipynb, and result for max_token_limit=100 in code/100.ipynb. 
