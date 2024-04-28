@@ -1,7 +1,7 @@
 # Easy-CoT: Automated and Diverse Chain-of-Thought Reasoning on Small Language Models
 
 ## Grading
-The notebook code/easy_cot.ipynb contains generation of Easy-CoT dataset, fine-tuning code and the results in paper. Another note is that I discovered an error in the code after presentation. I reran all the experiments afterwards, so number results slightly differs from what I presented in video; the conclusion is the same.
+The notebook code/easy_cot.ipynb contains generation of Easy-CoT dataset, fine-tuning code and the results in paper. Another note is that I discovered an error in the code after presentation. I reran all the experiments afterwards, so number results slightly differs from what I presented in video; the conclusion is the same. Paper available [here](https://drive.google.com/file/d/1jHh_s546Qxp1nd5pHnk2NvUH18m7-mA4/view?usp=drive_link)
 
 ## Instruction
 To run experiment on an unseen complex reasoning dataset (one that has question-answer data), follow these steps:
