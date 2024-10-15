@@ -1,5 +1,8 @@
 # Easy-CoT: Automated and Diverse Chain-of-Thought Reasoning on Small Language Models
 
+## Introduction
+Paper available [here](https://drive.google.com/file/d/1jHh_s546Qxp1nd5pHnk2NvUH18m7-mA4/view?usp=drive_link)
+
 ## Instruction
 To run experiment on an unseen complex reasoning dataset (one that has question-answer data), follow these steps:
 
